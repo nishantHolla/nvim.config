@@ -29,4 +29,5 @@ require("lazy").setup({
   plugin("autopair"),
   plugin("treesitter"),
   plugin("autotag"),
+  plugin("tmux"),
 })
