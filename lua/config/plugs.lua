@@ -26,4 +26,5 @@ require("lazy").setup({
   plugin("lualine"),
   plugin("ibl"),
   plugin("oil"),
+  plugin("autopair"),
 })
