@@ -30,4 +30,5 @@ require("lazy").setup({
   plugin("treesitter"),
   plugin("autotag"),
   plugin("tmux"),
+  plugin("cmp"),
 })
