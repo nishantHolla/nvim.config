@@ -22,5 +22,6 @@ local plugin = function (name)
 end
 
 require("lazy").setup({
-  plugin("nightfox")
+  plugin("nightfox"),
+  plugin("lualine"),
 })
