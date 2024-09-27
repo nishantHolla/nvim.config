@@ -25,4 +25,5 @@ require("lazy").setup({
   plugin("nightfox"),
   plugin("lualine"),
   plugin("ibl"),
+  plugin("oil"),
 })
