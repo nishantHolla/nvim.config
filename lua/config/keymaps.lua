@@ -27,3 +27,8 @@ set({"n", "v"}, "<leader>x", "x", opt("Delete character with updating unnamed re
 
 set("n", "<M-i>", ":bp<cr>", opt("Go to previous buffer"))
 set("n", "<M-o>", ":bn<cr>", opt("Go to next buffer"))
+
+set("n", "<leader>ss", ":w<cr>", opt("Write current buffer"))
+set("n", "<leader>sa", ":wa<cr>", opt("Write all open buffers"))
+set("n", "<leader>qq", CloseBuffer, opt("Close current buffer"))
+set("n", "<leader>qa", ":qa<cr>", opt("Close all open buffers"))
