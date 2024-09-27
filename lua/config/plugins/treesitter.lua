@@ -13,6 +13,10 @@ local treesitter = function ()
       "tsx",
       "astro"
     },
+
+    highlight = {
+      enable = {"tsx"}
+    }
   })
 end
 
