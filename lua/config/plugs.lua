@@ -27,4 +27,5 @@ require("lazy").setup({
   plugin("ibl"),
   plugin("oil"),
   plugin("autopair"),
+  plugin("treesitter"),
 })
