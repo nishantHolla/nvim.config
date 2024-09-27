@@ -28,4 +28,5 @@ require("lazy").setup({
   plugin("oil"),
   plugin("autopair"),
   plugin("treesitter"),
+  plugin("autotag"),
 })
