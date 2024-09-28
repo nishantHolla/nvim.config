@@ -33,5 +33,6 @@ end
 
 return {
   "stevearc/oil.nvim",
-  config = oil
+  config = oil,
+  keys = {"<leader><leader>"}
 }

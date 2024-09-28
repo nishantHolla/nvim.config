@@ -75,7 +75,6 @@ local cmp = function ()
   })
 
   vim.opt.signcolumn = "yes"
-
   vim.diagnostic.config({
     virtual_text = false,
     signs = true,
@@ -97,5 +96,6 @@ return {
     "saadparwaiz1/cmp_luasnip",
     "williamboman/mason.nvim"
   },
-  config = cmp
+  config = cmp,
+  event = "InsertEnter"
 }

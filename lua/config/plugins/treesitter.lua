@@ -1,26 +1,22 @@
 local treesitter = function ()
   require("nvim-treesitter.configs").setup({
     ensure_installed = {
-      "c",
-      "lua",
-      "vim",
-      "vimdoc",
-      "query",
-      "markdown",
-      "markdown_inline",
       "javascript",
       "typescript",
       "tsx",
-      "astro"
+      "astro",
+      "css",
+      "html"
     },
 
     highlight = {
-      enable = {"tsx"}
+      enable = true
     }
   })
 end
 
 return {
   "nvim-treesitter/nvim-treesitter",
-  config = treesitter
+  config = treesitter,
+  ft = {"javascript", "typescript", "typescriptreact", "astro", "javascriptreact", "html", "css"}
 }

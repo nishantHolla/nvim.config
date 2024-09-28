@@ -4,5 +4,6 @@ end
 
 return {
   "windwp/nvim-ts-autotag",
-  config = autotag
+  config = autotag,
+  ft = {"html", "astro", "typescript", "typescriptreact", "javascript", "javascriptreact"}
 }
