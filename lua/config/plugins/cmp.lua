@@ -74,6 +74,11 @@ local cmp = function ()
     on_attach = on_attach
   })
 
+  lspconfig["clangd"].setup({
+    capabilities = capabilities,
+    on_attach = on_attach
+  })
+
   vim.opt.signcolumn = "yes"
   vim.diagnostic.config({
     virtual_text = false,
@@ -97,5 +102,5 @@ return {
     "williamboman/mason.nvim"
   },
   config = cmp,
-  event = "InsertEnter"
+
 }

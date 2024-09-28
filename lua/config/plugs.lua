@@ -31,4 +31,5 @@ require("lazy").setup({
   plugin("autotag"),
   plugin("tmux"),
   plugin("cmp"),
+  plugin("conform")
 })
