@@ -79,6 +79,16 @@ local cmp = function ()
     on_attach = on_attach
   })
 
+  lspconfig["tailwindcss"].setup({
+    capabilities = capabilities,
+    on_attach = on_attach
+  })
+
+  lspconfig["astro"].setup({
+    capabilities = capabilities,
+    on_attach = on_attach
+  })
+
   vim.opt.signcolumn = "yes"
   vim.diagnostic.config({
     virtual_text = false,

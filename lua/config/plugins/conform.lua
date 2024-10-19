@@ -13,6 +13,7 @@ local conform = function ()
       typescript = { "prettierd", "prettier", stop_after_first = true },
       javascriptreact = { "prettierd", "prettier", stop_after_first = true },
       typescriptreact = { "prettierd", "prettier", stop_after_first = true },
+      astro = { "prettierd", "prettier", stop_after_first = true },
     },
   })
 
@@ -22,5 +23,5 @@ end
 return {
   "stevearc/conform.nvim",
   config = conform,
-  ft = {"javascript", "typescript", "typescriptreact", "javascriptreact"}
+  ft = {"javascript", "typescript", "typescriptreact", "javascriptreact", "astro"}
 }
