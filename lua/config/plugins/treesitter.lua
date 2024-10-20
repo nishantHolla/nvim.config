@@ -6,7 +6,10 @@ local treesitter = function ()
       "tsx",
       "astro",
       "css",
-      "html"
+      "html",
+      "cpp",
+      "c",
+      "lua"
     },
 
     highlight = {
@@ -18,5 +21,5 @@ end
 return {
   "nvim-treesitter/nvim-treesitter",
   config = treesitter,
-  ft = {"javascript", "typescript", "typescriptreact", "astro", "javascriptreact", "html", "css"}
+  ft = {"javascript", "typescript", "typescriptreact", "astro", "javascriptreact", "html", "css", "cpp", "c", "lua"}
 }
